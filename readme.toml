@@ -1,97 +1,33 @@
-# 课程名称
-course_name = "课程中文名称"
-
-# 仓库类型: normal | multi-project
+course_name = "学术规范与论文写作"
+course_code = "WRCO4024"
 repo_type = "normal"
 
-# 课程代码 (用于检索)
-course_code = "CODE1234"
-
-# 课程简介
-description = """
-在这里填写课程的简要介绍。
-可以换行。
-"""
-
-# ===== 章节列表 =====
-[[sections]]
-title = "考核方式"
-
-# 第一条内容
-[[sections.items]]
-content = """
-• 平时成绩: 30%
-• 期中考试: 30%
-• 期末考试: 40%
-"""
-# author 是可选的
-author = { name = "昵称A", date = "2025-03" }
-
-# 第二条内容（同一章节下多条）
-[[sections.items]]
-content = """
-• 2024年: 期末 60% + 平时 40%
-"""
-author = { name = "昵称B", date = "2024-01" }
-
-[[sections]]
-title = "学习资料"
-
-[[sections.items]]
-content = """
-• 教材: 《书名》
-• 参考资料链接
-"""
-
-# ===== 教师评价 (新 schema) =====
-# 顺序: lecturers.intro → lecturers.items → lecturers.summary
 [lecturers]
 
-# 教师简介 (在教师列表之前，可以多条)
-[[lecturers.intro]]
-content = """
-教师团队总体介绍。
-人数: 3人
-"""
-author = { name = "管理员", date = "2025-01" }
-
-[[lecturers.intro]]
-content = """
-研究方向: 机器学习、计算机视觉
-"""
-author = { name = "管理员", date = "2025-01" }
-
-# 教师列表
 [[lecturers.items]]
-name = "教师A"
+name = "苗子博"
 
 [[lecturers.items.reviews]]
+content = "授课风格：进行一两次考勤，但提问有时会直接指定在场的学生回答。"
+author = { name = "345ljh", link = "https://www.github.com/345ljh", date = "2026-08" }
+
+[[sections]]
+title = "课程内容"
+
+[[sections.items]]
 content = """
-教师评价内容。
-可以多行。
+### 课程内容
+包括学术研究的基本知识、科技文献的阅读与检索方法、学术/学位论文的撰写、学位论文的格式与规范。
 """
-author = { name = "昵称", link = "https://github.com/xxx", date = "2025-03" }
 
-[[lecturers.items.reviews]]
-content = "另一条评价"
-author = { name = "匿名", date = "2025-01" }
+[[sections]]
+title = "关于考试"
 
-[[lecturers.items]]
-name = "教师B"
-
-[[lecturers.items.reviews]]
-content = "教师B的评价"
-author = { name = "学生", date = "2024-12" }
-
-# 教师总结 (在教师列表之后，可以多条)
-[[lecturers.summary]]
+[[sections.items]]
 content = """
-教师团队总结。
-整体教学水平较高。
-"""
-author = { name = "管理员", date = "2025-01" }
+成绩构成：平时表现（包括2次作业）50%，期末考试50%。
 
-[[lecturers.summary]]
-content = """
-建议: 尽早选课，晚了好老师就没了
+- 期末考试  
+  - 基本是课件中涉及的内容，全开卷（可携带任意纸质材料参加考试，不限页数）。```note```目录下仍提供整理课件得到的A4纸。
 """
+author = { name = "345ljh", link = "https://www.github.com/345ljh", date = "2026-08" }
