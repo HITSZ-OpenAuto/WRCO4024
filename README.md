@@ -1,73 +1,33 @@
-# CODE1234 - 课程中文名称
+# WRCO4024 - 学术规范与论文写作
 <!-- TOML-META: repo_type="normal" -->
+<!-- TOML-BADGES: source="grades_summary" -->
 
-在这里填写课程的简要介绍。
-可以换行。
+![成绩构成](https://img.shields.io/badge/成绩构成-gold)
+![平时表现50%](https://img.shields.io/badge/平时表现-50%25-wheat)
+![期末考试50%](https://img.shields.io/badge/期末考试-50%25-wheat)
 
 ## 授课教师
 
-<!-- TOML-LECTURERS: part="intro" -->
-
-<!-- TOML-ITEM: id="lecturers-intro-1" -->
-
-教师团队总体介绍。
-人数: 3人
-
-> 文 / 管理员，2025-01
-
-<!-- TOML-ITEM: id="lecturers-intro-2" -->
-
-研究方向: 机器学习、计算机视觉
-
-> 文 / 管理员，2025-01
-
 <!-- TOML-LECTURERS: part="items" -->
-- 教师A
-  <!-- TOML-ITEM: id="review-教师A-1" -->
-  - 教师评价内容。
-  - 可以多行。
-    > 文 / [昵称](https://github.com/xxx)，2025-03
-  <!-- TOML-ITEM: id="review-教师A-2" -->
-  - 另一条评价
-    > 文 / 匿名，2025-01
-- 教师B
-  <!-- TOML-ITEM: id="review-教师B-1" -->
-  - 教师B的评价
-    > 文 / 学生，2024-12
-<!-- TOML-LECTURERS: part="summary" -->
+- 苗子博
+  <!-- TOML-ITEM: id="review-苗子博-1" has_author="true" -->
+  - 授课风格：进行一两次考勤，但提问有时会直接指定在场的学生回答。  
+    > 文 / [345ljh](https://www.github.com/345ljh)，2026-08
 
-<!-- TOML-ITEM: id="lecturers-summary-1" -->
+## 课程内容
 
-教师团队总结。
-整体教学水平较高。
+<!-- TOML-ITEM: id="item-课程内容 -1" -->
 
-> 文 / 管理员，2025-01
+### 课程内容
+包括学术研究的基本知识、科技文献的阅读与检索方法、学术/学位论文的撰写、学位论文的格式与规范。  
 
-<!-- TOML-ITEM: id="lecturers-summary-2" -->
+## 关于考试
+<!-- TOML-SECTION: title="关于考试" -->
 
-建议: 尽早选课，晚了好老师就没了
+<!-- TOML-ITEM: id="item-关于考试-1" has_author="true" -->
 
-## 考核方式
-<!-- TOML-SECTION: title="考核方式" -->
+成绩构成：平时表现（包括2次作业）50%，期末考试50%。
 
-<!-- TOML-ITEM: id="item-考核方式-1" -->
-
-• 平时成绩: 30%
-• 期中考试: 30%
-• 期末考试: 40%
-
-> 文 / 昵称A，2025-03
-
-<!-- TOML-ITEM: id="item-考核方式-2" -->
-
-• 2024年: 期末 60% + 平时 40%
-
-> 文 / 昵称B，2024-01
-
-## 学习资料
-<!-- TOML-SECTION: title="学习资料" -->
-
-<!-- TOML-ITEM: id="item-学习资料-1" -->
-
-• 教材: 《书名》
-• 参考资料链接
+- 期末考试  
+  - 基本是课件中涉及的内容，全开卷（可携带任意纸质材料参加考试，不限页数）。```note```目录下仍提供整理课件得到的A4纸。  
+> 文 / [345ljh](https://www.github.com/345ljh)，2026-08
