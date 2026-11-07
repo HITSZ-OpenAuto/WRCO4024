@@ -1,0 +1,57 @@
+{
+  ".github/workflows/trigger-workflow.yml": {
+    "size": 552,
+    "time": 1794023122,
+    "hash": "a87c809fe9dbff99d99996b2717411b6b2a4946e"
+  },
+  "LICENSE": {
+    "size": 20844,
+    "time": 1788144298,
+    "hash": "ba005a49f5519c4b520dd3206006e899779f5c6c"
+  },
+  "README.md": {
+    "size": 1048,
+    "time": 1788356977,
+    "hash": "bda93e1fcb4335e2aa46058b959433312ca262a1"
+  },
+  "assignments/.gitkeep": {
+    "size": 0,
+    "time": 1788144298,
+    "hash": "ba005a49f5519c4b520dd3206006e899779f5c6c"
+  },
+  "exams/.gitkeep": {
+    "size": 0,
+    "time": 1788144298,
+    "hash": "ba005a49f5519c4b520dd3206006e899779f5c6c"
+  },
+  "exams/26春《学术规范与论文写作》回忆版.docx": {
+    "size": 195545,
+    "time": 1788356966,
+    "hash": "562f7984c676d3a5220dd0800625d6da0377d8f1"
+  },
+  "labs/.gitkeep": {
+    "size": 0,
+    "time": 1788144298,
+    "hash": "ba005a49f5519c4b520dd3206006e899779f5c6c"
+  },
+  "notes/.gitkeep": {
+    "size": 0,
+    "time": 1788144298,
+    "hash": "ba005a49f5519c4b520dd3206006e899779f5c6c"
+  },
+  "notes/考试A4.pptx": {
+    "size": 97962,
+    "time": 1788356966,
+    "hash": "562f7984c676d3a5220dd0800625d6da0377d8f1"
+  },
+  "readme.toml": {
+    "size": 1021,
+    "time": 1788356977,
+    "hash": "bda93e1fcb4335e2aa46058b959433312ca262a1"
+  },
+  "slides/.gitkeep": {
+    "size": 0,
+    "time": 1788144298,
+    "hash": "ba005a49f5519c4b520dd3206006e899779f5c6c"
+  }
+}
